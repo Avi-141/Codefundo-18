@@ -7,6 +7,7 @@ Nipun,
 Abhinav
 
 Goal : To create a robust and upgraded prediction system to predict cyclones, and build a framework that eliminates possible misuse of opaqueness of the relief fund collection system.
+
 Abstract :
 
 PHASE 1 : Deep learning has, in recent times,garnered enormous attention from Academia, Industry, Government and media for it's rapid success and developement in the fields of computer vision, etc. Neural networks are considered amazing functional approximators. 
