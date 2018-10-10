@@ -1,5 +1,4 @@
-									Idea by Team Toofan for Codefundo 2018
-
+									Project Toofan.
 Team Members:
 
 Dwaraknath,
