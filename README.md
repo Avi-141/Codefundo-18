@@ -7,11 +7,6 @@ Abhinav
 
 Goal : To create a robust and upgraded prediction system to predict cyclones, and build a framework that eliminates possible misuse of opaqueness of the relief fund collection system.
 
-UPDATE :
-
-We found that the archived cyclone images we were able to find are noisy, and less coherent than what we would have liked. The application of VAE did not increase our chances of building the best model we could, so we went with Convolutional Autoencoder(CAE). Judging by pure reconstruction loss we have decided to continue with CAE as our model. The dataset is a time series of images taken by satellite over southern Indian region, we have used the trained encoder to encode all images into latent vector form, to create the encoded image matrix. We then use Multivariate Time series forecasting using LSTM to forecast the encoded form of t+1 image. We then proceed to decode using the trined Convolutional Decoder to decode the forecast and reconstruct future cloud pattern, and overlay it with input image to give a sense of direction to the clouds. 
-
-We have also created an interactive T-SNE demo which, given a collection of normal and cyclone images, uses dimensionality reduction to plot the high dimension data into 3D space. This allows us to draw useful inferences about clusters and classification decision boundaries between recent cyclones. We quantify the "closeness" between cyclones using T-SNE. We can also use this trick to analyse how similar or different a new cyclone is to previous ones. 
 
 Abstract :
 
@@ -22,3 +17,8 @@ We also propose the use T-SNE  algorithm to properly visualise and infer charect
 
 PHASE 2: This phase of our project toys with the idea of using decentralised Blockchain technology to  create and maintain a decentralised ledger of transactions that happen during relief fund transfer. We want to increase transparency while, providing anonymity. A publicly maintained ledger is important to manage the funds that have been collected to be used only for relief purposes. 
 
+UPDATE :
+
+We found that the archived cyclone images we were able to find are noisy, and less coherent than what we would have liked. The application of VAE did not increase our chances of building the best model we could, so we went with Convolutional Autoencoder(CAE). Judging by pure reconstruction loss we have decided to continue with CAE as our model. The dataset is a time series of images taken by satellite over southern Indian region, we have used the trained encoder to encode all images into latent vector form, to create the encoded image matrix. We then use Multivariate Time series forecasting using LSTM to forecast the encoded form of t+1 image. We then proceed to decode using the trined Convolutional Decoder to decode the forecast and reconstruct future cloud pattern, and overlay it with input image to give a sense of direction to the clouds. 
+
+We have also created an interactive T-SNE demo which, given a collection of normal and cyclone images, uses dimensionality reduction to plot the high dimension data into 3D space. This allows us to draw useful inferences about clusters and classification decision boundaries between recent cyclones. We quantify the "closeness" between cyclones using T-SNE. We can also use this trick to analyse how similar or different a new cyclone is to previous ones. 
