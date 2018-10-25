@@ -7,6 +7,9 @@ Abhinav
 
 Goal : To create a robust and upgraded prediction system to predict cyclones, and build a framework that eliminates possible misuse of opaqueness of the relief fund collection system.
 
+UPDATE 2:
+
+We were able to make a Convolutional Variational Autoencoder (CVAE), to remove individual disadvantages and combine advantages of the initial models. CVAE treats cyclones as completely probabilistic phenomeneon.
 
 Abstract :
 
